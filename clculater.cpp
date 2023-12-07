@@ -34,11 +34,11 @@ int main()
  case 4 :
         c=a/b;
         cout<<c<<endl;
-        break; 
+        break;   
 
 
 
-        default:cout<<"inviled stement plase enter the key ";
+        default:cout<<"inviled stement plase enter the key "<<endl;
 
 
 

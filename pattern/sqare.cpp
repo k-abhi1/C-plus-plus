@@ -10,9 +10,9 @@ int main()
     cout << "enter the colum";
     cin >> colum;
       
-    for (int i = 1; i < row; i++)
+    for (int i = 1; i <= row; i++)
     {
-        for (int j = 1; j < colum; j++)
+        for (int j = 1; j <=  colum; j++)
         {
             cout << "*";
         }  

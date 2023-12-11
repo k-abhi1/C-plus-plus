@@ -4,6 +4,7 @@ using namespace std;
 int main()
 {
     int n;
+    cout<<"enter the number";  // enter the any number and print the trangle 
     cin>>n;
 
     int space=(2*n-1)/2;

@@ -31,7 +31,7 @@ int main()
     cout<<">Introduction to Hierarchical Data Structure"<<endl;
     cout<<">Overview of Data Structures | Set 3 (Graph, Trie, Segment Tree and Suffix Tree)"<<endl<<endl;
     cout<<"Abstract Data Types"<<endl<<endl;
-  
+    cout<<"<.............................................................................................................>";
     return 0;
     //d s a
 

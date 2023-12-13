@@ -81,27 +81,38 @@
 // } 
 
 
-#include<iostream>
-using namespace std;
+// #include<iostream>
+// using namespace std;
 
-int main()
-{
-    char a='a';
-    int b=a;
-    int input,sum;
+// int main()
+// {
+//     char a='a';
+//     int b=a;
+//     int input,sum;
+//     cout<<"Enter a number: ";
+//     cin>>input;
+
+//     sum=input+b;
+//     cout<<"b="<<b<<endl<<"input="<<input<<endl<<"sum="<<sum<<endl;
+// }
+
+#include <iostream> 
+using namespace std; 
+  
+int main() 
+{ 
+    float x;
+
     cout<<"Enter a number: ";
-    cin>>input;
+    cin>>x;
 
-    sum=input+b;
-    cout<<"Sum = "<<b<<endl<<input<<endl<<sum<<endl;
-
-
-}
+    // Explicit conversion from double to int 
+    float sum = (float)x + 1; 
   
-
-
-
+    cout << "Sum = " << sum<<endl; 
   
+    return 0; 
+} 
 
 
 

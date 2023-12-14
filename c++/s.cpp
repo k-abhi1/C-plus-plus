@@ -10,7 +10,7 @@ int main()
         int img;
     };
 
-    complex c1,c2,c3;
+    complex c1,c2,c3; // enter tow no
 
     cout<<"Enter the real and img part of first complex no: ";
     cin>>c1.real>>c1.img;
@@ -21,6 +21,6 @@ int main()
     c3.real=c1.real+c2.real;
     c3.img=c1.img+c2.img;
     
-    cout<<"The sum of two complex no is: "<<c3.real<<"+"<<c3.img<<"i";
+    cout<<"The sum of two complex no is: "<<c3.real<<"+"<<c3.img<<"i"; 
     return 0;
 }

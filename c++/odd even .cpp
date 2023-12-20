@@ -5,7 +5,7 @@ int main()
 
 {
     int n;
-   cout<<"enter the numer";
+   cout<<"enter the numer"; //enter the two number
    cin>>n;
 
    if(n%2==0)

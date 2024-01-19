@@ -3,17 +3,18 @@
 #include<iostream>
 using namespace std;
 
-int main()
-{
+int main(){
+
     char c;
-    cout<<"Enter the character"<<endl;
+    cout<<"enter the any charcter";
     cin>>c;
 
-    if(c=='a'||c=='e'||c=='i'||c=='o'||c=='u'){
-        cout<<"The character is vowel"<<endl;
+    if(c=='a'||c=='e'||c=='o'||c=='u'||c=='i')
+    {
+        cout<<"the charcter is vowel";
     }
-    else{
-        cout<<"The character is consonent"<<endl;
+    else
+    {
+        cout<<"the charcter is consonent"; 
     }
-    return 0;   
 }

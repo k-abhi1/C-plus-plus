@@ -6,35 +6,44 @@ using namespace std;
 
 int main()
 {
-    int day;
-    cout<<"Enter the day"<<endl;
-    cin>>day;
-
-    switch(day){
+   int day;
+   cout<<"enter the day";
+   cin>>day;
+    switch(day)
+    {
         case 1:
-            cout<<"Sunday"<<endl;
-            break;
+        cout<<"sounday";
+        break;
+
         case 2:
-            cout<<"Monday"<<endl;
-            break;
+        cout<<"monday";
+        break;
+
         case 3:
-            cout<<"Tuesday"<<endl;
-            break;
+        cout<<"tuesday";
+        break;
+
         case 4:
-            cout<<"Wednesday"<<endl;
-            break;
+        cout<<"wednesday";
+        break;
+
         case 5:
-            cout<<"Thursday"<<endl;
-            break;
+        cout<<"thursday";
+        break;
+
         case 6:
-            cout<<"Friday"<<endl;
-            break;
-        case 7:
-            cout<<"Saturday"<<endl;
-            break;
+        cout<<"friday";
+        break;
+
+        case 7: 
+        cout<<"saturday";
+        break;
+         
         default:
-            cout<<"Invalid input"<<endl;
+            cout<<"Invalid input! Please enter week number between 1-7.";
     }
     return 0;
 }
+
+
 

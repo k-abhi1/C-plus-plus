@@ -37,6 +37,6 @@ print(A x, A Y)
 };
 int main()
 {
-    print<double> obj(123.234, 'A');
+    print obj(123.234, 'A');
     return 0;
 }

@@ -1,33 +1,33 @@
 //1. wap in c++ to input a power (mn)and the find the power of those number using-negation oprator
 // overloading unary operator overloading
 
-#include<iostream>
-using namespace std;
+// #include<iostream>
+// using namespace std;
 
-class power{
-    int m,n;
-    public:
-    power(int x,int y){
-        m=x;
-        n=y;
-    }
-    void display(){
-        cout<<"m="<<m<<" n="<<n<<endl;
-    }
-    power operator-(){
-        m=-m;
-        n=-n;
-        return power(m,n);
-    }
-};
+// class power{
+//     int m,n;
+//     public:
+//     power(int x,int y){
+//         m=x;
+//         n=y;
+//     }
+//     void display(){
+//         cout<<"m="<<m<<" n="<<n<<endl;
+//     }
+//     power operator-(){
+//         m=-m;
+//         n=-n;
+//         return power(m,n);
+//     }
+// };
 
-int main(){
-    power p(2,3);
-    p.display();
-    -p;
-    p.display();
-    return 0;
-}
+// int main(){
+//     power p(2,3);
+//     p.display();
+//     -p;
+//     p.display();
+//     return 0;
+// }
 
 //2.wap in c++ to i/p any two complex number and them summation of complex no using
 //oprator overloading(binary operator overloading)

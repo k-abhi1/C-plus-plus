@@ -9,7 +9,7 @@ class a{
   {
     for(int i=0; i<n;i++)
     {
-      for()
+      for(int i=0;)
     }
 
   }

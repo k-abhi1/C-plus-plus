@@ -1,4 +1,12 @@
 // hafe piramide ?
+
+
+//   *
+//  ***
+// *****
+// *******
+
+
 #include<iostream>
 using namespace std;
 

@@ -1,3 +1,5 @@
+// calculter .cpp
+
 #include<iostream>
 using namespace std;
 
@@ -23,7 +25,7 @@ int main()
 
  case 2 :
         c=a-b;
-        cout<<c<<endl;
+        cout<<c<<endl;   
         break;
 
  case  3:

@@ -33,7 +33,7 @@ class Bank
         balance += amount;
     }
     void withdraw(double amount)
-    {
+    { 
         if(balance >= amount)
         {
             balance -= amount;

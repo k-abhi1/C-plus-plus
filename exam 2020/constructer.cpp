@@ -36,3 +36,6 @@ int main(){
 // 3. to the widrwal n amount after checking the blance
 // 4. To display name and balance Write a main program which h
 // dies lo eustomers.
+
+
+

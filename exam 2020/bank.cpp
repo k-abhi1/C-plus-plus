@@ -2,7 +2,7 @@
 // Data members:
 // 1. Name of the depositor
 // 2. Account number
-// 3. Type of account
+// 3. Type of accountx
 // 4. Balance amount in the account
 // Member functions:
 // 1. To assign initial values

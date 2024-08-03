@@ -41,6 +41,10 @@ void setup() {
 // the loop routine runs over and over again forever:
 void loop() {
   switchState = digitalRead(pirPin);
+
+
+
+  
   
   if (switchState == HIGH) {
     digitalWrite(motorPin, HIGH);

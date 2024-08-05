@@ -44,7 +44,7 @@ void loop() {
 
 
 
-  
+
   
   if (switchState == HIGH) {
     digitalWrite(motorPin, HIGH);
@@ -53,6 +53,8 @@ void loop() {
     digitalWrite(motorPin, LOW);
   }
 }
+
+
 
 
 

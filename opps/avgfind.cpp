@@ -134,6 +134,12 @@ class programmer:public employee{
         id=inpId;
         languageCode=9;
     }
+
+
+
+
+
+    
     programmer(){}
 };
 int main(){
